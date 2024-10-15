@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin-top: 10px;
+    display: flex;
+}
+
+.logo{
+    display: flex;
+    margin-inline:192px auto;
+    
+}
+.top-nav-link{
+    display: flex;
+
+}
+.links{
+    display: flex;
+    margin-inline: 20% auto;
+    list-style: none;
+    text-align: center;
+    font-size: .8rem;
+}
+.space{
+    opacity:70%;
+    margin-inline: 10%;
+    
+}
+
+.nav-sign-login{
+    display: flex;
+    margin-inline: auto 192px;
+    gap: 18px;
+    align-items: center;
+}
+
+a{
+    text-decoration: none;
+}
+.sign{
+    border: 2px solid #0758a9;
+    color: #0a66c2;
+    border-radius: 24px;
+    padding: 7px 16px;
+}
+.join{
+    color: white;
+    background-color: #0a66c2;
+    border-radius: 24px;
+    padding: 7px 16px;
+}
+.article:hover ,.people:hover,.games:hover,.jobs:hover,.getapp:hover,.learning:hover{
+    opacity: 100%;
+}
+
+.sign:hover{
+    background-color: rgb(185, 212, 241);
+    
+}
+.join:hover{
+    background-color: #004182;
+}
+
+.section{
+    max-width: 1128px;
+}
+.section{
+    width: 300px;
+}
+.content{
+    padding-left: 150px;
+    margin: 30px;
+}
